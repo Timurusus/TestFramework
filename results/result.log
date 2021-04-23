@@ -1,0 +1,24 @@
+2021-04-23 17:39:57,838 Testing of test_data\tests.json was started
+2021-04-23 17:39:57,838 Test case "Check table 'regions' for data existing"
+2021-04-23 17:39:57,840 PASS. Result is 4 as expected
+	Query: SELECT COUNT(*) FROM hr.regions
+2021-04-23 17:39:57,840 Test case "Check table 'countries' for data existing"
+2021-04-23 17:39:57,841 PASS. Result is 25 as expected
+	Query: SELECT COUNT(*) FROM hr.countries
+2021-04-23 17:39:57,841 Test case "Check table 'employees' for data existing"
+2021-04-23 17:39:57,842 PASS. Result is 40 as expected
+	Query: SELECT COUNT(*) FROM hr.employees
+2021-04-23 17:39:57,842 Test case "Check table 'departments' for data existing"
+2021-04-23 17:39:57,843 PASS. Result is 11 as expected
+	Query: SELECT COUNT(*) FROM hr.departments
+2021-04-23 17:39:57,843 Test case "Check table 'dependents' for data existing"
+2021-04-23 17:39:57,844 PASS. Result is 30 as expected
+	Query: SELECT COUNT(*) FROM hr.dependents
+2021-04-23 17:39:57,844 Test case "Check table 'jobs' for data existing"
+2021-04-23 17:39:57,845 PASS. Result is 19 as expected
+	Query: SELECT COUNT(*) FROM hr.jobs
+2021-04-23 17:39:57,845 Test case "Check table 'locations' for data existing"
+2021-04-23 17:39:57,846 PASS. Result is 7 as expected
+	Query: SELECT COUNT(*) FROM hr.locations
+2021-04-23 17:39:57,846 Testing is finished
+2021-04-23 17:39:57,846 TestFrameworks runtime is 0:00:00.008648
